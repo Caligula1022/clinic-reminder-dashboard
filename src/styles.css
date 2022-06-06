@@ -1,0 +1,24 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import '~bootstrap/dist/css/bootstrap.min.css';
+.container {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-row:hover{
+  cursor: pointer;
+  background-color: #eeeeee;
+}
+
+.link {
+  @include float-left;
+}
+.link {
+  @include float-right;
+}
+.link {
+  @include float-none;
+}
