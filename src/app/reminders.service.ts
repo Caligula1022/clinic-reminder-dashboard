@@ -13,7 +13,8 @@ export class RemindersService {
 
   constructor(private http: HttpClient) { }
 
-  private url = 'http://localhost:8080/api';
+  // private url = 'http://localhost:8080/api';
+  private url = 'https://pitt-clinic-api.herokuapp.com/api/';
 
   httpOptions = {
     headers: new HttpHeaders({

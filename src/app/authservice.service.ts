@@ -9,7 +9,8 @@ import { Login } from './model/login';
 })
 export class AuthserviceService {
 
-  private url = 'http://localhost:8080/api/';
+  // private url = 'http://localhost:8080/api/';
+  private url = 'https://pitt-clinic-api.herokuapp.com/api/';
 
   constructor(private http: HttpClient) { }
 
