@@ -48,6 +48,7 @@ export class RemindersComponent implements OnInit {
       this.dataSource = new MatTableDataSource(result);
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;
+      console.log(this.dataSource);
       console.log('yes');
     });
     /*this.dataSource = new MatTableDataSource(this.remindersService.getPatientMappingByDoctor(this.doctorId));
