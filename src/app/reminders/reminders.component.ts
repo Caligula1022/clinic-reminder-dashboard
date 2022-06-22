@@ -44,7 +44,7 @@ export class RemindersComponent implements OnInit {
     }
 
     this.remindersService.getPatientMappingByDoctor(this.doctorId).subscribe(result => {
-      console.log('is it correct?');
+      console.log('is it correct???');
       this.dataSource = new MatTableDataSource(result);
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;
